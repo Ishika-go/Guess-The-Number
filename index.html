@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="flex justify-center items-center min-h-screen bg-gray-900 text-white"
+  >
+    <div
+      class="w-1/2 p-8 rounded-2xl shadow-xl border border-solid border-white-700 text-center"
+    >
+      <h1 class="text-3xl font-semibold mb-4 tracking-tight">
+        Guess the Number
+      </h1>
+      <p class="mb-6">
+        I'm thinking of a number between 1 and 100. Can you find it?
+      </p>
+      <div class="flex justify-center text-sm mb-4">Guessing the number between</div>
+      <div class="mb-4 grid md:grid-cols-3 gap-4">
+        <input
+          type="number"
+          placeholder="min"
+          aria-label="minimum"
+          class="w-20 px-2 py-1 border rounded outline-none focus:ring justify-self-center md:justify-self-end"
+        />
+        -
+        <input
+          type="number"
+          placeholder="max"
+          aria-label="maximum"
+          class="w-20 px-2 py-1 border rounded outline-none focus:ring justify-self-center md:justify-self-start"
+        />
+      </div>
+
+      <div class="mb-4">
+        <label class="block mb-2">Enter a number</label>
+        <input
+          class="w-full p-2 rounded text-black"
+          placeholder="enter a number"
+          type="number"
+        />
+      </div>
+
+      <div class="grid gap-4 md:block md:space-x-2">
+        <button
+          class="px-4 py-2 bg-blue-600 rounded hover:bg-blue-700 text-white"
+        >
+          Submit
+        </button>
+        <button
+          class="px-4 py-2 bg-gray-600 rounded hover:bg-gray-700 text-white"
+        >
+          Reset
+        </button>
+        <button
+          class="px-4 py-2 bg-green-600 rounded hover:bg-green-700 text-white"
+        >
+          Hint
+        </button>
+      </div>
+
+      <div class="mt-6 text-lg">Popup message win or lose</div>
+    </div>
+  </body>
+</html>
