@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ishika-go/Guess-The-Number/issues"
   },
-  "homepage": "https://github.com/Ishika-go/Guess-The-Number#readme"
+  "homepage": "https://github.com/Ishika-go/Guess-The-Number#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.12"
+  }
 }
