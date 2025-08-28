@@ -4,13 +4,14 @@
 
 
 
-A simple game built with HTML, CSS, and JavaScript.
+A game built with HTML, Tailwind CSS, and JavaScript.
 
 ## Features
 - Random number generation
 - User guesses with feedback
 - Reset game
 - Attempts counter
+- Hint
 
 ## How to Run
 Open `index.html` in your browser.
